@@ -7,11 +7,12 @@ article{
 }
 
 .resaltado{
-
+    color: yellow;
 }
 
-.titulo_del_blog{
-
+#titulo_del_blog{
+    text-align: center;
+    font-size: 3rem;
 }
 
 .ilustracion{
@@ -25,3 +26,4 @@ article{
 .footer_blog{
 
 }
+
