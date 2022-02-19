@@ -6,6 +6,10 @@ article{
     background-color: rgb(44, 43, 43) 
 }
 
+nav> ul >li {
+
+}
+
 .resaltado{
     color: yellow;
 }
@@ -13,6 +17,10 @@ article{
 #titulo_del_blog{
     text-align: center;
     font-size: 3rem;
+}
+
+.resaltado2{
+    color: blanchedalmond;
 }
 
 .ilustracion{
