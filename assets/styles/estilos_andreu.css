@@ -12,6 +12,12 @@ article{
     color: yellow;
 }
 
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
 #titulo_del_blog{
     text-align: center;
     font-size: 3rem;
@@ -21,7 +27,7 @@ nav>ul>li {
     list-style: none;
 }
 
-nav>ul>li{
+nav>ul>li>a{
     text-decoration: none;
 }
 
@@ -31,14 +37,11 @@ nav>ul>li{
     font-size: italic;
 }
 
-.ilustracion figcaption {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    font-style: italic;
-}
 
 .ilustracion figcaption{
-
+margin-top: 1rem;
+margin-left: 1rem;
+font-size: italic;
 }
 
 .footer_blog{
