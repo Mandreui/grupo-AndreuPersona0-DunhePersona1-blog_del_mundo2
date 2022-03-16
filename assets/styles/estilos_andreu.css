@@ -1,6 +1,6 @@
 section {
     
-    /* despliégate como  grid */
+    /*  despliégate como  grid */
     display: grid;
     /* Crea 12 columnas cada una de una fracción usando la función repeat*/
     grid-template-columns: repeat(12, 1fr);
