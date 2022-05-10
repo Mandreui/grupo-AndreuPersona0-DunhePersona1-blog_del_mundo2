@@ -52,10 +52,13 @@ article{
 
 nav>ul>li {
     list-style: none;
+    color:white;
 }
 
 nav>ul>li>a{
     text-decoration: none;
+    text-decoration: underline;
+    color: greenyellow;
 }
 
 .ilustracion{
@@ -73,6 +76,18 @@ font-size: italic;
 
 .footer_blog{
     margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 0rem; 
+    padding-right:  0rem;
+    font-size: 1.3rem;
+}
+
+.footer_blog div:nth-child(2){
+    font-size: .9rem;
 }
 
 nav >ul{
@@ -81,4 +96,58 @@ nav >ul{
     justify-content: space-around;
     border-bottom: 1px solid #fff;
     padding-bottom: 0.5rem;
+}
+
+nav{
+    position:fixed;
+    width: 100%;
+    background-color: brown;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+article> header> hgroup > {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article>header>hgroup>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+article>header>hgroup>h2>img{
+    margin: 1rem;
+}
+
+aside>h2{
+    display: flex;
+    align: center;
+    font-size: 1.3rem;
+}
+
+aside>div:nth-child(even){
+    background-color: rgb(44, 43, 43);
+}
+
+/* Selecciona todas las imágenes que vivan dentro de un div que a su vez vive dentro de aside */
+aside> div> img {
+    /* la imagen tendrá color de fondo blanco */
+    background-color: #fff;
+    /* habrá un espacio entre el borde y el contenido de 0.5rem */
+    padding: 0.5rem;
+    /* redondea el borde para que sea un círculo */
+    border-radius: 50%;
+}
+
+aside>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
